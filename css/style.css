@@ -1,0 +1,126 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Open+Sans');
+
+body {
+	background-color: #ecf0f1;
+text-align: center;}
+
+
+main {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #bdc3c7;
+	color:#000;}
+
+h1 {
+	text-align:center;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 36px;}
+
+h3 {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 20px;
+text-align: left;
+padding: 0 25px;
+margin: 10px 0;}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+ 	line-height: normal;}
+
+
+header {
+	height: 40px;
+	padding: 0 10px;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	background-color: #000;}
+
+header .logo a{
+	padding: 5px 0;
+	color: #2ecc71;
+	font-size: 26px;
+	text-decoration: none;
+	display: block;
+	float: left;}
+
+header .logo a:hover {
+	color: #fff;}
+
+header nav{
+	width: 40%;
+	float: right;}
+
+header nav li {
+	list-style:none;
+	padding: 12px 0 12px 10px;
+	display: inline-block;
+	float: right;}
+
+header nav a {
+	color: #fff;
+	text-decoration: none;}
+
+header nav a:hover {
+	color: #2ecc71;}
+
+.slide img {
+	width: 100%;
+	margin: 0 auto;
+	height: 240px;}
+
+.title {
+	width: 100%;
+	padding: 40px 0 60px 0;
+	margin: 0 auto;}
+
+.title p {
+	text-align: center;
+	margin: 20px 0 0 0;}
+
+.container {
+	background-color: #979797;
+	max-width: 960px;
+	margin: 0;
+	padding: 40px 0;
+}
+
+article {
+	display: inline-block;
+	width: 31%;
+}
+
+.container article img {
+	width: 250px;
+	height: 200px;
+	padding: 0 25px;
+}
+
+.container article p {
+	padding: 0 25px;
+	margin: 10px 0 0 0;
+	font-size: 12px;
+	text-align: left;
+}
+
+
+
+footer {
+	width: 100%;
+	padding: 10px 0;
+	margin: 0 auto;
+
+}
+
+footer p {
+	font-size: 12px;
+	text-align: center;
+	color: #979797;
+	
+}
+
+
+
